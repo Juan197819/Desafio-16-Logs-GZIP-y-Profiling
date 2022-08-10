@@ -1,0 +1,46 @@
+----ARGUMENTOS POR CONSOLA:
+
+ argumento para puerto: -p ó --port         ----->Por defecto se configuro para usar puerto 8080
+ argumento para modo Cluster: --cluster ó --CLUSTER (Modo fork por defecto)
+ argumento para modo FORK: --fork ó --FORK (Solo se agrega para levantar server con PM2)
+
+---------------------------------------COMANDOS PARA INICIAR  SERVIDOR (COPIAR Y PEGAR TAL CUAL):----------------
+
+-----------------------CON NODE:----------------
+node servidorHBS.js --CLUSTER -p 8081       --->Modo cluster
+node servidorHBS.js          -p 8080        --->por defecto servidor en modo fork
+
+---------------------CON NODEMON:----------------
+nodemon servidorHBS.js --CLUSTER --port 8081     --->Modo cluster
+nodemon servidorHBS.js        -p 8080         --->por defecto servidor en modo fork 
+ 
+---------------------CON FOREVER-----------------
+forever servidorHBS.js -p 8080              
+forever list                            --->Listar procesos por FOREVER
+
+---------------------CON PM2-----------------
+
+COMANDOS PARA LEVANTAR CON NGINX (ULTIMA CONSIGNA PUNTO 1)
+
+pm2 start servidorHBS.js --name=ServerFORK --watch -- --port 8080  --FORK    --->Modo fork
+pm2 start servidorHBS.js --name=ServerCLUSTER --watch -i max -- --port 8081 --CLUSTER    --->Modo cluster
+
+COMANDOS PARA LEVANTAR CON NGINX (ULTIMA CONSIGNA PUNTO 2)
+
+pm2 start servidorHBS.js --name=ServerFORK --watch -- --port 8080  --FORK    --->Modo fork
+pm2 start servidorHBS.js --name=ServerCLUSTER1 --watch -i 1 -- --port 8082 --CLUSTER    --->Modo cluster
+pm2 start servidorHBS.js --name=ServerCLUSTER2 --watch -i 1 -- --port 8083 --CLUSTER    --->Modo cluster
+pm2 start servidorHBS.js --name=ServerCLUSTER3 --watch -i 1 -- --port 8084 --CLUSTER    --->Modo cluster
+pm2 start servidorHBS.js --name=ServerCLUSTER4 --watch -i 1 -- --port 8085 --CLUSTER    --->Modo cluster
+
+pm2 ls               ---->Listar procesos por pm2
+pm2 delete all       ----->
+--------------Comandos CMD o POWERSHELL-----------------
+taskkill /pid 13248 /f                  --->Matar proceso por PID
+tasklist /fi "imagename eq node.exe"    --->Listar procesos NODE por SISTEMA OPERATIVO
+tasklist /fi "imagename eq nginx.exe"    --->Listar procesos NGYNX por SISTEMA OPERATIVO
+
+------------COMANDOS NGYNX-------------
+start nginx
+./nginx.exe -s reload
+
