@@ -1,0 +1,74 @@
+1a)
+PERFILAMIENTO con --prof y ARTILLERY EN RUTA /info SIN CONSOLE.LOG:
+ 
+1° Comento console.log en ruta /info  metodo GET 
+node --prof servidorHBS.js
+artillery quick --count 20 -n 50 http://localhost:8080/info > result_sin_log_ARTILLERY.txt
+node --prof-process PROF_SIN_LOG.log >result_sin_log_PROF_decodificado.txt
+
+
+PERFILAMIENTO con --prof y ARTILLERY EN RUTA /info CON CONSOLE.LOG:
+
+1° Descomento console.log en ruta /info  metodo GET 
+node --prof servidorHBS.js
+artillery quick --count 20 -n 50 http://localhost:8080/info > result_con_log_ARTILLERY.txt
+node --prof-process PROF_CON_LOG.log >result_con_log_PROF_decodificado.txt   
+
+
+(SE ADJUNTAN TODOS LOS ARCHIVOS .TXT Y . LOG QUE SE CREARON)
+-----------------------------------------------------------------------------------------------------
+1B)
+PERFILAMIENTO con --prof y AUTOCANNON EN RUTA /info SIN CONSOLE.LOG:
+ 
+1° Comento console.log en ruta /info  metodo GET 
+node --prof servidorHBS.js
+artillery quick --count 20 -n 50 http://localhost:8080/info > INSPECT__artillery_con_log.txt
+
+autocannon -d 20 -c 100 "http://localhost:8080/info
+
+
+PERFILAMIENTO con --prof y AUTOCANNON EN RUTA /info CON CONSOLE.LOG:
+
+1° Descomento console.log en ruta /info  metodo GET 
+node --prof servidorHBS.js
+artillery quick --count 20 -n 50 http://localhost:8080/info > INSPECT__artillery_sin_log.txt
+
+autocannon -d 20 -c 100 "http://localhost:8080/info
+
+(AMBOS RESULTADOS EN IMAGENES EN INFORME)
+
+-------------------------------------------------------------------------------------------------------
+2)
+PERFILAMIENTO con --inspect y ARTILLERY EN RUTA /info SIN CONSOLE.LOG:
+
+1° Comento console.log en ruta /info  metodo GET 
+node --inspect servidorHBS.js
+EN NAV  ----->      chrome://inspect
+artillery quick --count 20 -n 50 http://localhost:8080/info > INSPECT__artillery_sin_log.txt
+
+
+PERFILAMIENTO con --inspect y ARTILLERY EN RUTA /info CON CONSOLE.LOG:
+
+1° Descomento console.log en ruta /info  metodo GET 
+node --inspect servidorHBS.js
+EN NAV  ----->      chrome://inspect
+artillery quick --count 20 -n 50 http://localhost:8080/info > INSPECT__artillery_con_log.txt
+
+
+------------------------------------------------------------------------------------------
+
+3)
+DIAGRAMA DE FLAMA CON 0x y AUTOCANNON EN RUTA /info SIN CONSOLE.LOG:
+
+1° Comento console.log en ruta /info  metodo GET 
+0x servidorHBS.js
+autocannon -d 20 -c 100 "http://localhost:8080/info
+
+
+DIAGRAMA DE FLAMA CON 0x y AUTOCANNON EN RUTA /info CON CONSOLE.LOG:
+
+1° Descomento console.log en ruta /info  metodo GET 
+0x servidorHBS.js
+autocannon -d 20 -c 100 "http://localhost:8080/info"
+
+

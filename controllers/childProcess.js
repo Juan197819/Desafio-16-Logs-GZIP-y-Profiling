@@ -16,7 +16,7 @@ export const calculo = (cant)=>{
     return obj
 }
 
-process.on('message', cant=>{
+/* process.on('message', cant=>{
     const cantParse = (Number(cant))
     let objeto;
     if (!isNaN(cantParse)) {
@@ -26,3 +26,4 @@ process.on('message', cant=>{
     }
     process.send(objeto)
 })
+ */

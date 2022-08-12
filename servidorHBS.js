@@ -14,7 +14,7 @@ import apiRandom from './controllers/apiRandom.js'
 import {cpus as numCPUS} from 'os'
 import cluster from 'cluster';
 import compression from 'compression';
-import logger, {logueoWarning,logueoInfo, logueoError}from './confWinston.js';
+import {logueoWarning,logueoInfo, logueoError}from './confWinston.js';
 
 //-------------MINIMIST PARA REC. ARGUMENTOS-----------
 const optiones= { 
@@ -206,6 +206,7 @@ const info ={
 
 app.get('/info', logueoInfo, (req, res) => {
   info.compIsTrue = 'No Comprimida'
+  //console.log(info) 
   res.render("info",info)
 })
 app.get('/infoComp', compression(), logueoInfo, (req, res) => {
@@ -262,9 +263,8 @@ app.all('*', logueoWarning,(req,res)=>{
 
 const PORT=arg.port 
 
-if (!arg.CLUSTER&&!arg.cluster||arg.clusterPM2) {
+if (!arg.CLUSTER&&!arg.cluster) {
   console.log('MODO FORK')
-
   const connectedServer = httpServer.listen(PORT, () => {
     console.log(`Servidor con Websockets en el puerto ${connectedServer.address().port}`);
   });
