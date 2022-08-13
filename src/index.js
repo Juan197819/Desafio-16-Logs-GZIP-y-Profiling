@@ -1,11 +1,11 @@
-import 'dotenv/config'
+import {PERSISTENCIA} from '../configEntorno.js'
 import ContenedorMongoDb from './contenedores/contenedorMongoDB.js'
 import ContenedorFirebase from './contenedores/contenedorFirebase.js'
 
 let daoCarrito,daoProducto,daoMensaje,daoUsuario
-console.log(`Persistencia elegida via archivo .env:  ${process.env.PERSISTENCIA}`)
+console.log(`Persistencia elegida via archivo .env:  ${PERSISTENCIA}`)
 
-switch (process.env.PERSISTENCIA) {
+switch (PERSISTENCIA) {
     case 'mongodb':
         const {default: DaoProductosMongo}= await import('./daos/productos/productosDaoMongoDB.js')    
         const {default: DaoCarritosMongo} = await import('./daos/carritos/carritosDaoMongoDB.js')    

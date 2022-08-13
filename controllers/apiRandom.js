@@ -5,7 +5,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
  */
 import {calculo} from './childProcess.js'
-import {arg} from '../servidorHBS.js'
+import {arg} from '../configEntorno.js'
 
 const apiRandom = (req, res) => {
     const cant = req.query.cant

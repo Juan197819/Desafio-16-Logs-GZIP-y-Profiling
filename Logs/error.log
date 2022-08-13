@@ -1,0 +1,13 @@
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Error en la conexion de MongoDB:  IF is not defined","stack":"ReferenceError: IF is not defined\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:12:13)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  condition is not defined","stack":"ReferenceError: condition is not defined\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:12:13)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  N is not defined","stack":"ReferenceError: N is not defined\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:12:13)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  NODE_ENV is not defined","stack":"ReferenceError: NODE_ENV is not defined\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:12:13)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  NODE_ENV is not defined","stack":"ReferenceError: NODE_ENV is not defined\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:12:13)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}

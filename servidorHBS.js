@@ -9,19 +9,12 @@ import session from 'express-session';
 import bcrypt from 'bcrypt';
 import passport from 'passport';
 import {Strategy as LocalStrategy} from 'passport-local';
-import parseArgs from 'minimist'
 import apiRandom from './controllers/apiRandom.js'
 import {cpus as numCPUS} from 'os'
 import cluster from 'cluster';
 import compression from 'compression';
 import {logueoWarning,logueoInfo, logueoError}from './confWinston.js';
-
-//-------------MINIMIST PARA REC. ARGUMENTOS-----------
-const optiones= { 
-  alias:{p: 'port'},
-  default:{p: 8080}
-}
-export const arg = parseArgs(process.argv.slice(2), optiones)
+import {PORT,arg} from './configEntorno.js'
 
 //------------SETEO DE SERVER----------
 const app= express(); 
@@ -260,8 +253,6 @@ app.all('*', logueoWarning,(req,res)=>{
   })
 
 //---------------SERVER LISTEN------------------------------
-
-const PORT=arg.port 
 
 if (!arg.CLUSTER&&!arg.cluster) {
   console.log('MODO FORK')

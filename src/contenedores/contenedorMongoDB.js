@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import 'dotenv/config'
+import {HOST_MONGO, PORT_MONGO, NODE_ENV} from '../../configEntorno.js'
 import {logueoError}from '../../confWinston.js';
 
 class ContenedorMongoDb{
@@ -9,7 +9,14 @@ class ContenedorMongoDb{
 
     static async iniciarPersistencia(){
         try {
-            const url = `mongodb://${process.env.HOST_MONGO}:${process.env.PORT_MONGO}/ecommerce` 
+            let url;
+            if (NODE_ENV=='desarrollo') {
+                url = `mongodb://${HOST_MONGO}:${PORT_MONGO}/ecommerce` 
+                console.log('Mongo conectado local')
+            }else{
+                url = `mongodb+srv://Juan1978:Juan1978@cluster0.gwdrp.mongodb.net/?retryWrites=true&w=majority` 
+                console.log('Mongo ATLAS conectado')
+            }
             await mongoose.connect(url)
             console.log('Base de datos MongoDB conectada')
         } catch (error) {
