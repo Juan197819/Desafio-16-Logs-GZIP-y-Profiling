@@ -6,7 +6,7 @@
   "main": "servidorHBS.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon servidorHBS.js"
+    "start": "node servidorHBS.js"
   },
   "keywords": [],
   "author": "",
