@@ -11,3 +11,194 @@
 {"level":"error","message":"Usuario no encontrado"}
 {"level":"error","message":"Usuario no encontrado"}
 {"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"warn","message":"Ruta actual: /img/flags.png, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Error en la conexion de MongoDB:  connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\connection.js:824:32)\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:380:10\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:1225:10)\n    at Mongoose.connect (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:379:20)\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:20:28)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\connection.js:824:32)\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:380:10\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:1225:10)\n    at Mongoose.connect (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:379:20)\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:20:28)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /1660536580152-logo%20GitHub.png, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /1660536580152-logo%20GitHub.png, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/Vector.png, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/Vector-1.png, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/Vector-2.png, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/ico%20Instagram.svg, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/ico%20Linkedin.svg, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /imagenes/iconos/icomoon-free_facebook.svg, con metodo GET "}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /u, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"warn","message":"Ruta actual: /avatares/, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /avatares/, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /jjj, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /kkkkkk, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"warn","message":"Ruta actual: /g, con metodo GET "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Error al borrar imagen: Error: ENOENT: no such file or directory, unlink 'C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\1660588055176-lgoYarn.png' "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Error al borrar imagen: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /style.css, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /logo%20jpb%201.svg, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /logo%20jpb%201.svg, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /logo%20jpb%201.svg, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /api/js/index.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /api/js/phone.js, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /favicon.ico, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"warn","message":"Ruta actual: /k, con metodo GET "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}

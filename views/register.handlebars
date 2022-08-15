@@ -1,17 +1,32 @@
-<div class="usuario">
-  <h1>Registro de Usuario</h1>
-  <form class="flexCol" action="/register" method="POST">
+<div class="flexCol contentCenter">
+  <div class="usuario flexCol contentCenter">
+    <h1>Ingrese sus datos para crear la cuenta</h1>
+    <form  class="flexCol" action="/register" enctype="multipart/form-data" method="POST"/>
 
-    <label for="nombre">Ingrese su Nombre</label>
-    <input type="text" required name="nombre" value="Juan Perez">
+      <label for="nombre">Nombre y Apellido</label>
+      <input type="text" required name="nombre" value="Juan Perez"/>
 
-    <label for="username">Ingrese su Email</label>
-    <input type="email" required name="username" value="juanpablo88@hotmail.com">
+      <label for="direccion">Direccion</label>
+      <input type="text" required name="direccion" value="Chubut 500"/>
 
-    <label for="password">Ingrese Contraseña</label>
-    <input type="password" name="password" value="1234" required>
-    <button>Registrarse</button>
-    
-  </form>
-  <a href="/login">Ir a login</a>
+      <label for="edad">Edad</label>
+      <input type="text" required name="edad" value="50"/>
+
+      <label for="imagen">Imagen</label>
+      <input type="file" name="imagen" required/>
+
+      <label for="phone">Ingrese codigo de area y telefono</label>
+      {{!-- pattern valida que haya un solo '+' y entre 8 y 16 caracteres que sean nros del 0 al 9  --}}
+      <input pattern="[+]{1}[0-9]{8,16}" oninput="process(event)" id="phone" type="tel" name="phone"  required/>
+
+      <label for="username">Email</label>
+      <input type="email" required name="username" value="juanpablo88@hotmail.com"/>
+
+      <label for="password">Contraseña</label>
+      <input type="password" name="password" value="1234" required/>
+
+      <button>Registrarse</button>
+    </form>
+    <a  class="boton" href="/login">Ir a login</a>
+  </div>
 </div>

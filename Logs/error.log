@@ -11,3 +11,89 @@
 {"level":"error","message":"Usuario no encontrado"}
 {"level":"error","message":"Usuario no encontrado"}
 {"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Error en la conexion de MongoDB:  connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\connection.js:824:32)\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:380:10\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:1225:10)\n    at Mongoose.connect (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:379:20)\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:20:28)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Error en la conexion de MongoDB:  connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\connection.js:824:32)\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:380:10\n    at C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:41:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:40:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:1225:10)\n    at Mongoose.connect (C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\node_modules\\mongoose\\lib\\index.js:379:20)\n    at Function.iniciarPersistencia (file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/contenedores/contenedorMongoDB.js:20:28)\n    at file:///C:/Users/juanp/OneDrive/Escritorio/Desafio-16-Logs,Debug-y-Profiling/src/index.js:15:27"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario no encontrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Error al borrar imagen: Error: ENOENT: no such file or directory, unlink 'C:\\Users\\juanp\\OneDrive\\Escritorio\\Desafio-16-Logs,Debug-y-Profiling\\1660588055176-lgoYarn.png' "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Error al borrar imagen: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined "}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"USUARIO NO AUTENTICADO, DEBE LOGUEARSE"}
+{"level":"error","message":"Usuario ya registrado"}
+{"level":"error","message":"Usuario ya registrado"}

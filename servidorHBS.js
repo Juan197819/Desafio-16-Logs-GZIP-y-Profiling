@@ -1,4 +1,6 @@
+import fs from 'fs'
 import express, {Router} from 'express';
+import multer from 'multer';
 import exphbs from 'express-handlebars';
 import {Server as HttpServer} from "http";
 import {Server as IOServer} from "socket.io";
@@ -70,22 +72,34 @@ passport.use('registro', new LocalStrategy({
   } catch (error) {
     logueoError(`Este es el error al leer registros de BD: ` , error)
   }
-  
   if (user) {
     logueoError('Usuario ya registrado')
+    try {
+      await fs.promises.unlink(`./views/avatares/${req.file.filename}`)
+      console.log('Borrado de avatar exitoso')
+    } catch (error) {
+      logueoError(`Error al borrar imagen: ${error} `)
+    }
     return done(null, false)
   }
+  
   const usuarioNuevo= {
     nombre:req.body.nombre,
+    edad:req.body.edad,
+    direccion:req.body.direccion,
+    telefono: req.body.phone,
+    urlImagen:req.file.filename,
     username: username,
     password: bcrypt.hashSync(password, bcrypt.genSaltSync(10))
   }
+  console.log(usuarioNuevo)
   try {
    await daoUsuario.guardar(usuarioNuevo)
    console.log('REGISTRO EXITOSO')
   } catch (error) {
     logueoError('Este es  el error al guardar usuarioNuevo: ', error)
   }
+
   return done(null, usuarioNuevo)
 }))  
 
@@ -108,7 +122,7 @@ passport.use('logueo', new LocalStrategy( async (username,password,done)=>{
   return done(null, user)
 })) 
 
-//---------------MIDDLEWARE DE AUTENTICACION---------------------  
+//---------------MIDDLEWARE DE AUTENTICACION y deMULTER PARA GUARDAR IMAGENES--------------------  
 function auth(req, res, next){
   if (req.isAuthenticated()) {
     console.log('USUARIO AUTENTICADO') 
@@ -118,6 +132,15 @@ function auth(req, res, next){
     res.redirect('/login')
   }
 }
+let avatar = multer.diskStorage({
+  destination:(req,file,cb)=>{
+    cb(null,'./views/avatares')
+  },
+  filename:(req,file,cb)=>{
+    cb(null,`${Date.now()}-${file.originalname}`)
+  }
+})
+const upload = multer({storage:avatar})
 
 //------------------------------RUTAS---------------------------------
 
@@ -128,8 +151,11 @@ app.get('/register',logueoInfo, (req, res) => {
   res.render("register");
 })  
 
-app.post('/register', passportAuthRegister,logueoInfo, (req, res) => {
-  res.redirect('/login')
+app.post('/register', upload.single('imagen'), passportAuthRegister,logueoInfo, (req, res) => {
+  const nombreMayus= req.body.nombre.toUpperCase()
+  req.session.nombre= nombreMayus
+  req.session.urlImagen=req.file.filename
+  res.redirect('/centroMensajes')
 })  
 
 app.get('/errorRegistro',logueoInfo,(req, res) => {
@@ -144,15 +170,16 @@ app.get('/', auth, logueoInfo, (req, res) => {
 })
 
 app.get('/login', logueoInfo, (req, res) => {
-  res.render("login",{port:arg.p});
+  res.render("login");
 })
 
 app.post('/login', passportAuthLogin, logueoInfo, async (req, res) => {
 
-  const [{nombre}]= await daoUsuario.leer({username: req.body.username})
+  const [{nombre,urlImagen}]= await daoUsuario.leer({username: req.body.username})
   console.log(nombre)
   const nombreMayus= nombre.toUpperCase()
   req.session.nombre= nombreMayus
+  req.session.urlImagen= urlImagen
   res.redirect('/centroMensajes')
 })
 
@@ -177,9 +204,12 @@ app.get('/logout',auth, logueoInfo,(req, res) => {
 //-------------CENTRO DE MENSAJES-- (PAGINA PRINCIPAL) -----------
 
 app.get('/centroMensajes', auth , logueoInfo,(req, res) => {
+  console.log(req.session.urlImagen)
   const usuario = {
     nombre:req.session.nombre,
-    email:req.user 
+    urlImagen:req.session.urlImagen,
+
+    email:req.user,
   }
   res.render("centroMensajes",usuario);
 })
